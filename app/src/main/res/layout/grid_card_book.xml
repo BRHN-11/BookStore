@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="94dp"
+    android:layout_height="175dp"
+    android:layout_gravity="center"
+    android:background="@drawable/bg_book_selector"
+    android:orientation="vertical"
+    android:padding="3dp">
+
+
+    <ImageView
+        android:id="@+id/bookPic"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:contentDescription="@string/im_book"
+        android:src="@drawable/book"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/bookTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:paddingLeft="3dp"
+            android:text="@string/tv_bookName"
+            android:textSize="12sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/bookPrice"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            android:gravity="center|right"
+            android:paddingRight="5dp"
+            android:text="@string/tv_bookPrice"
+            android:textColor="@color/bg_login"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+</LinearLayout>
+

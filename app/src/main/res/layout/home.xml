@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/catLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/catName1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:clickable="true"
+                    android:gravity="left|center"
+                    android:onClick="onClick"
+                    android:paddingLeft="10dp"
+                    android:text="@string/catName"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnMore1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:text="@string/more" />
+            </LinearLayout>
+
+            <GridView
+                android:id="@+id/gridView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/bg_home"
+                android:columnWidth="104dp"
+                android:horizontalSpacing="4dp"
+                android:numColumns="auto_fit"
+                android:scrollbars="none"
+                android:stretchMode="columnWidth" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/catLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/catName2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:clickable="true"
+                    android:gravity="left|center"
+                    android:onClick="onClick"
+                    android:paddingLeft="10dp"
+                    android:text="@string/catName"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnMore2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:text="@string/more" />
+            </LinearLayout>
+
+            <GridView
+                android:id="@+id/gridView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/bg_home"
+                android:columnWidth="104dp"
+                android:horizontalSpacing="4dp"
+                android:numColumns="auto_fit"
+                android:scrollbars="none"
+                android:stretchMode="columnWidth" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/catLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/catName3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:clickable="true"
+                    android:gravity="left|center"
+                    android:onClick="onClick"
+                    android:paddingLeft="10dp"
+                    android:text="@string/catName"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnMore3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:text="@string/more" />
+            </LinearLayout>
+
+            <GridView
+                android:id="@+id/gridView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/bg_home"
+                android:columnWidth="104dp"
+                android:horizontalSpacing="4dp"
+                android:numColumns="auto_fit"
+                android:scrollbars="none"
+                android:stretchMode="columnWidth" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/catLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/catName4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:clickable="true"
+                    android:gravity="left|center"
+                    android:onClick="onClick"
+                    android:paddingLeft="10dp"
+                    android:text="@string/catName"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnMore4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:text="@string/more" />
+            </LinearLayout>
+
+            <GridView
+                android:id="@+id/gridView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/bg_home"
+                android:columnWidth="104dp"
+                android:horizontalSpacing="4dp"
+                android:numColumns="auto_fit"
+                android:scrollbars="none"
+                android:stretchMode="columnWidth" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/catLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/catName5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:clickable="true"
+                    android:gravity="left|center"
+                    android:onClick="onClick"
+                    android:paddingLeft="10dp"
+                    android:text="@string/catName"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnMore5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:text="@string/more" />
+            </LinearLayout>
+
+            <GridView
+                android:id="@+id/gridView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/bg_home"
+                android:columnWidth="104dp"
+                android:horizontalSpacing="4dp"
+                android:numColumns="auto_fit"
+                android:scrollbars="none"
+                android:stretchMode="columnWidth" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/catLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/catName6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:clickable="true"
+                    android:gravity="left|center"
+                    android:onClick="onClick"
+                    android:paddingLeft="10dp"
+                    android:text="@string/catName"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnMore6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:text="@string/more" />
+            </LinearLayout>
+
+            <GridView
+                android:id="@+id/gridView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/bg_home"
+                android:columnWidth="104dp"
+                android:horizontalSpacing="4dp"
+                android:numColumns="auto_fit"
+                android:scrollbars="none"
+                android:stretchMode="columnWidth" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
+

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/bg_book_selector"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    android:padding="6dp">
+
+
+    <ImageView
+        android:id="@+id/bookPic"
+        android:layout_width="0dp"
+        android:layout_height="95dp"
+        android:layout_gravity="left"
+        android:layout_weight="4"
+        android:contentDescription="@string/im_book"
+        android:src="@drawable/book"
+        android:visibility="visible" />
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="15"
+        android:orientation="vertical"
+        android:paddingLeft="3dp">
+
+        <TextView
+            android:id="@+id/bookTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="11"
+            android:text="@string/tv_bookName"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/bookAuthor"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="6"
+            android:gravity="center_vertical"
+            android:text="@string/tv_bookAuthor"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/bookPrice"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:gravity="bottom|right"
+            android:text="@string/tv_bookPrice"
+            android:textColor="@color/bg_login"
+            android:textSize="13sp"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

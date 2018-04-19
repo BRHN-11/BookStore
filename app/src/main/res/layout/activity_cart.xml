@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:background="@drawable/bg_book_normal"
+                android:id="@+id/table"
+                android:paddingTop="10dp"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:paddingBottom="20dp"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:stretchColumns="0,1"/>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:padding="5dp">
+
+                <Button
+                    android:id="@+id/btnBuy"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:background="@color/btn_login_bg"
+                    android:text="@string/btn_confirm_order"
+                    android:textColor="@android:color/white"
+                    android:textSize="24sp"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tv_total"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/black"
+                        android:textSize="24sp"
+                        android:gravity="end"/>
+                    <TextView
+                        android:id="@+id/tvTotal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tv_total_num"
+                        android:textSize="18sp"
+                        android:textColor="@color/bg_login"
+                        android:gravity="end"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"Book Store"</string>
+    <string name="hint_email">"Email"</string>
+    <string name="hint_phone">"Phone"</string>
+    <string name="hint_address">"Address"</string>
+    <string name="hint_password">"Password"</string>
+    <string name="hint_name">"Full name"</string>
+    <string name="btn_login">"LOGIN"</string>
+    <string name="btn_register">"REGISTER"</string>
+    <string name="btn_link_to_register">"Not a member? Sign up now."</string>
+    <string name="btn_link_to_login">"Already registered! Login Me."</string>
+    <string name="btn_logout">"LOGOUT"</string>
+
+    <string name="action_search">"Search"</string>
+    <string name="action_cart">"Cart"</string>
+
+    <string name="im_book">"book cover"</string>
+    <string name="tv_bookName">"Book Title"</string>
+    <string name="tv_bookAuthor">"Book Writer"</string>
+    <string name="tv_bookPrice">"$0.0"</string>
+    <string name="more">"More"</string>
+    <string name="catName">"Category Name"</string>
+    <string name="btn_buy">"Add to cart"</string>
+    <string name="quantity">"Quantity"</string>
+    <string name="num_quantity">"1"</string>
+    <string name="hint_country">"Country"</string>
+    <string name="hint_city">"City"</string>
+    <string name="hint_zip">"Zip code"</string>
+    <string name="hint_cardNumber">"Card Number"</string>
+    <string name="hint_cardName">"Name on card"</string>
+    <string name="hint_expireMonth">"Expire Month"</string>
+    <string name="hint_expireYear">"Expire Year"</string>
+    <string name="hint_cvc">"CVC"</string>
+    <string name="btn_pay">"Pay"</string>
+
+    <string name="book_title">"Title"</string>
+    <string name="tv_author">"Author: "</string>
+    <string name="tv_publisher">"Publisher: "</string>
+    <string name="tv_price">"Price: "</string>
+    <string name="tv_category">"Category: "</string>
+    <string name="tv_published_at">"Published at: "</string>
+    <string name="btn_confirm_order">"Confirm"</string>
+    <string name="tv_total">"Total: "</string>
+    <string name="tv_total_num">"0.0$"</string>
+    <string name="category_name">"Category name"</string>
+    <string name="search_hint">Search books</string>
+
+</resources>

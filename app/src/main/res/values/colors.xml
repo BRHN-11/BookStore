@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_login">#ff02a8aa</color>
+    <color name="actionbar">#ff028f91</color>
+    <color name="actionbar_tab_unselected">#ff02a3a5</color>
+    <color name="actionbar_tab_selected">#ff02b7b9</color>
+    <color name="actionbar_tab_focused">#ff02d0d2</color>
+    <color name="bg_register">#ff02999b</color>
+    <color name="white">#ffffff</color>
+    <color name="input_login">#222222</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="input_register">#222222</color>
+    <color name="input_register_bg">#ffffffff</color>
+    <color name="input_register_hint">#999999</color>
+    <color name="btn_login">#ffffffff</color>
+    <color name="btn_login_bg">#ff50ba56</color>
+    <color name="lbl_name">#333333</color>
+    <color name="btn_register_bg">#ffe24c80</color>
+    <color name="input_quantity">#9999f49f</color>
+    <color name="input_quantity_error">#99f44f46</color>
+    <color name="bg_home">#eeeeee</color>
+</resources>
